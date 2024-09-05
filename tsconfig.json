@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "module": "nodenext", // veya 'es2022', 'node16', vb.
+    "target": "es2017", // veya daha yüksek (es2020, esnext)
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "src/**/*"
+  ]
+}
